@@ -1,0 +1,20 @@
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: gray;
+  color: gray;
+  width: 9vw;
+  height: 200vh;
+  float: left;
+
+}
+
+.sidenav * {
+  margin-bottom: 10vh;
+  margin-top: 6vh;
+}
+
+.sidenav :nth-child(1){
+  color: orange !important;
+}

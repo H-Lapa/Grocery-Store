@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+
+*{
+
+	font-family: 'Open Sans';
+
+	max-width: 100vw;
+
+}
+
+
+
+html, body {
+
+	padding: 0;max-width:100vw;width:100vw;
+
+	margin: 0;overflow-x:hidden; /* here you add this */
+
+}
+
+
+.flex-c a:nth-child(2) {
+
+	margin-right: 190px;
+
+}
+
+
+
+
+
+form {
+
+  width:47.5vw;max-width: 375px;
+
+  padding:18px;
+
+  flex-direction:column;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:center;
+
+  background: #131419;
+
+  border-radius: 10px;
+
+  text-align: center;
+
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05), 5px 5px 15px rgba(0, 0, 0, 0.5);
+
+  margin: auto;
+
+  margin-top: 20px;
+
+}
+
+
+
+
+
+form span, button {
+
+	color:#f5f5f5;
+
+	font-variant:small-caps;font-weight:600;
+
+	font-size:25px!important;
+
+	margin-bottom:13.5px;
+
+	align-self:flex-start;
+
+}
+
+
+
+.inputBoxx {
+
+	margin:15px 0;
+
+	display:flex;
+
+	justify-content:flex-start;
+
+	align-items:center;flex-direction:column;
+
+	width:70%;
+
+}
+
+
+
+form input, form button {
+
+  width: 100%;cursor:pointer;
+
+  height: 50px;
+
+  background: #131419;
+
+  border: none;
+
+  outline: none;
+
+  border-radius: 40px;
+
+  padding: 5px 15px;
+
+  color: #fff;
+
+  font-size: 16px;
+
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1), inset 2px 2px 6px rgba(0, 0, 0, 0.6);
+
+}
+
+
+
+form input[type=submit]::placeholder {
+
+	font-variant:small-caps!important;
+
+}
+
+
+
+form button {
+
+	width: 40%;
+
+	margin-top: 10px;
+
+	align-items: center;
+
+	font-size: 15px;
+
+	padding-bottom: 10px;
+
+}
+
+
+
+::-webkit-calendar-picker-indicator {
+
+    filter: invert(1);
+
+}
+
+
+
+button {
+
+  width: 40%;
+
+  align-self:center;
+
+  margin-top: 20px;
+
+  box-shadow: -2px -2px 6px rgba(255, 255, 255, 0.1), 2px 2px 6px rgba(0, 0, 0, 0.8);
+
+}
+
+
+
+button:hover {
+
+  color: #ED8803;
+
+  box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1), inset 2px 2px 6px rgba(0, 0, 0, 0.8);
+
+}
+
+
+
+h2 {
+
+	text-decoration: none !important;
+
+	color:#f5f5f5;
+
+	font-variant: small-caps;
+
+}
+
+
+
+.forget {
+
+	display:flex;
+
+	flex-direction: column;
+
+	align-content: center;
+
+	justify-content: space-evenly;
+
+	text-decoration: none !important;
+
+	font-variant: small-caps;
+
+	font-weight: 600;
+
+	font-size: 14px;
+
+}
+
+.forget span {
+
+	font-size: 14px !important;
+
+}
+
+
+
+.forget a:hover {
+
+	color:#ED8803
+
+}
+
+
+
+#NR {
+
+	margin-bottom: 0px !important;
+
+	margin-top: 10px;
+
+}
+
+
+
+
+
